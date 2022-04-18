@@ -1,18 +1,16 @@
-import {createAppContainer} from 'react-navigation';
-import {createStackNavigator} from 'react-navigation-stack';
-import Search from '../Components/Search'
-import FilmDetail from '../Components/FilmDetail'
+import * as React from 'react';
+import Map from '../Components/Map'
+import Home from '../Home/Home';
+import { createAppContainer } from 'react-navigation';
+import { createDrawerNavigator } from 'react-navigation-drawer';
 
-const SearchStackNavigator = createStackNavigator({
-  Search: {
-    screen: Search,
-    navigationOptions: {
-      title: "Rechercher"
-    }
+const Nav = createDrawerNavigator({
+  Home: {
+    screen: Home,
   },
-  FilmDetail: {
-    screen: FilmDetail
-  }
-})
+    Map: {
+      screen: Map
+    },
+});
 
-export default createAppContainer(SearchStackNavigator)
+ export default createAppContainer(Nav);

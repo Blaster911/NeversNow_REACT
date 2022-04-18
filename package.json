@@ -1,5 +1,10 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -8,19 +13,33 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@material-ui/core": "^4.5.2",
+    "@material-ui/icons": "^4.5.1",
+    "@smollweide/material-ui-speed-dial": "^0.10.0",
     "expo": "^35.0.0",
-    "moment": "^2.24.0",
-    "numeral": "^2.0.6",
+    "expo-font": "^7.0.0",
+    "expo-location": "~7.0.0",
     "react": "16.8.3",
+    "react-burger-menu": "^2.6.11",
     "react-dom": "16.8.3",
+    "react-mui-speeddial": "0.0.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
-    "react-native-gesture-handler": "~1.3.0",
+    "react-native-action-button": "^2.8.5",
+    "react-native-floating-action": "^1.19.1",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-maps": "~0.25.0",
+    "react-native-material-ui": "^1.30.1",
+    "react-native-paper": "2.1.3",
+    "react-native-reanimated": "~1.2.0",
+    "react-native-vector-icons": "^6.6.0",
     "react-native-web": "^0.11.7",
     "react-navigation": "^4.0.10",
-    "react-navigation-stack": "^1.10.2"
+    "react-navigation-drawer": "^2.3.1",
+    "react-navigation-stack": "^1.10.3",
+    "react-speed-dial": "^0.5.2"
   },
   "devDependencies": {
-    "babel-preset-expo": "^7.0.0"
+    "babel-preset-expo": "^7.1.0"
   },
   "private": true
 }

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "NeverApp",
-    "slug": "AwesomeProject",
+    "name": "NearNevers",
+    "slug": "NearNevers",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
@@ -15,7 +15,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "cover",
-      "backgroundColor": "#444"
+      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
